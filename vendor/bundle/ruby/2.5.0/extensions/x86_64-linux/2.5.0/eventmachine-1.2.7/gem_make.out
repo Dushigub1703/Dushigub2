@@ -1,0 +1,22 @@
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/bin/ruby2.5 -r ./siteconf20200117-17840-1lnb3lw.rb extconf.rb
+creating Makefile
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" clean
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR="
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make "DESTDIR=" install
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader'
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20200117-17840-1xbxoge
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/eventmachine-1.2.7/ext/fastfilereader'

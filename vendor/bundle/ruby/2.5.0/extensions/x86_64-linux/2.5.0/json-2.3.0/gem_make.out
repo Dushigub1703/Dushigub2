@@ -1,0 +1,17 @@
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/json-2.3.0/ext/json
+/usr/bin/ruby2.5 -r ./siteconf20200117-17840-110n3wv.rb extconf.rb
+creating Makefile
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/json-2.3.0/ext/json
+make "DESTDIR=" clean
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/json-2.3.0/ext/json'
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/json-2.3.0/ext/json'
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/json-2.3.0/ext/json
+make "DESTDIR="
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/json-2.3.0/ext/json'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/json-2.3.0/ext/json'
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/json-2.3.0/ext/json
+make "DESTDIR=" install

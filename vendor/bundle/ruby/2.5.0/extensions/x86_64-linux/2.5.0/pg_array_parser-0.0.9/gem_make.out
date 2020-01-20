@@ -1,0 +1,21 @@
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pg_array_parser-0.0.9/ext/pg_array_parser
+/usr/bin/ruby2.5 -r ./siteconf20200117-17840-lyq7t7.rb extconf.rb
+creating Makefile
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pg_array_parser-0.0.9/ext/pg_array_parser
+make "DESTDIR=" clean
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pg_array_parser-0.0.9/ext/pg_array_parser'
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pg_array_parser-0.0.9/ext/pg_array_parser'
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pg_array_parser-0.0.9/ext/pg_array_parser
+make "DESTDIR="
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pg_array_parser-0.0.9/ext/pg_array_parser'
+compiling pg_array_parser.c
+linking shared-object pg_array_parser/pg_array_parser.so
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pg_array_parser-0.0.9/ext/pg_array_parser'
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pg_array_parser-0.0.9/ext/pg_array_parser
+make "DESTDIR=" install
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pg_array_parser-0.0.9/ext/pg_array_parser'
+/usr/bin/install -c -m 0755 pg_array_parser.so ./.gem.20200117-17840-1089duh/pg_array_parser
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pg_array_parser-0.0.9/ext/pg_array_parser'

@@ -1,0 +1,21 @@
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+/usr/bin/ruby2.5 -r ./siteconf20200117-17840-1erup25.rb extconf.rb
+creating Makefile
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" clean
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver'
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver'
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR="
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver'
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver'
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" install
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver'
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20200117-17840-1wpuo78
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.1/ext/websocket-driver'

@@ -1,0 +1,38 @@
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pcaprub-0.13.0/ext/pcaprub_c
+/usr/bin/ruby2.5 -r ./siteconf20200117-17840-k4bbne.rb extconf.rb
+
+[*] Running checks for pcaprub_c code...
+platform is x86_64-linux-gnu
+checking for ruby/thread.h... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_without_gvl()... yes
+checking for pcap_open_live() in -lpcap... yes
+checking for pcap_setnonblock() in -lpcap... yes
+creating Makefile
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pcaprub-0.13.0/ext/pcaprub_c
+make "DESTDIR=" clean
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pcaprub-0.13.0/ext/pcaprub_c'
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pcaprub-0.13.0/ext/pcaprub_c'
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pcaprub-0.13.0/ext/pcaprub_c
+make "DESTDIR="
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pcaprub-0.13.0/ext/pcaprub_c'
+compiling pcaprub.c
+pcaprub.c: In function 'rbpcap_s_lookupdev':
+pcaprub.c:108:3: warning: 'pcap_lookupdev' is deprecated: use 'pcap_findalldevs' and use the first device [-Wdeprecated-declarations]
+  108 |   dev = pcap_lookupdev(eb);
+      |   ^~~
+In file included from /usr/include/pcap.h:43,
+                 from pcaprub.c:11:
+/usr/include/pcap/pcap.h:328:16: note: declared here
+  328 | PCAP_API char *pcap_lookupdev(char *)
+      |                ^~~~~~~~~~~~~~
+linking shared-object pcaprub_c.so
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pcaprub-0.13.0/ext/pcaprub_c'
+
+current directory: /build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pcaprub-0.13.0/ext/pcaprub_c
+make "DESTDIR=" install
+make[2]: Entering directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pcaprub-0.13.0/ext/pcaprub_c'
+/usr/bin/install -c -m 0755 pcaprub_c.so ./.gem.20200117-17840-4hhnsq
+make[2]: Leaving directory '/build/metasploit-framework-BRkxmq/metasploit-framework-5.0.70/vendor/bundle/ruby/2.5.0/gems/pcaprub-0.13.0/ext/pcaprub_c'
