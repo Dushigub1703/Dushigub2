@@ -11,7 +11,7 @@ qrcode
 pillow
 pymssql
 future
-requests==2.21.0
+requests==2.31.0
 paramiko
 pysnmp==4.4.6
 pycryptodome
